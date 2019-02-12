@@ -3,7 +3,7 @@ import axios from 'axios';
 class Square extends Component {
   state = {
     seenIndexs: [],
-    values: {},
+    values: [],
     index: ''
   };
 
@@ -12,9 +12,9 @@ class Square extends Component {
   }
 
   async fetchValues() {
-    const values = await axios.get('/api/values/current');
+    const values = await axios.get('/api/values/all');
     this.setState({
-      values: values.data
+      values: values && values.data
     });
   }
 
@@ -33,15 +33,17 @@ class Square extends Component {
   renderValues() {
     const entries = [];
     console.log (this.state);
-    for (let key in this.state.values) {
+    if (!this.state.values) {
+      return;
+    }
+    this.state.values.forEach((value, key) => {
       console.log (key);
       entries.push(
         <div key={key}>
-          For index {key} I calculated {this.state.values[key]}
+          For value {value.number} I calculated { value.square}
         </div>
       );
-    }
-
+    });
     return entries;
   }
 
