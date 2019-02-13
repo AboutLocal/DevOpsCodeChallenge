@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This test case is designed to provide a DevOps candidate the opportunity to show his skills in a real world challenge. The goal is not to see which tools you use, but more so that you can demonstrate that you’ve learned to use them, and how you work with them. Your solution is welcome to be as simple or complex as you want, but you please write us an email explaining anything you did that you feel was pushing the scope of the challenge.  We expect that you spend 2-4 hours on this challenge.  Please let us know about any other things you would have liked to implement, but did not due to a lack of time.
+This test case is designed to provide a DevOps candidate the opportunity to show his skills in a real world challenge. The goal is not to see which tools you use, but more so that you can demonstrate that you’ve learned to use them, and how you work with them. Your solution is welcome to be as simple or complex as you want, but you please write us an email explaining anything you did that you feel was pushing the scope of the challenge.  We expect that you spend about 2 hours on this challenge.  Please let us know about any other things you would have liked to implement, but did not due to a lack of time.
 
 **Docker**, **git** and **AWS** are is used as a core component of this case. If you don’t have basic experience with these technologies please contact us.  The app to be installed is written in react with a node API backend.  Please do not hesitate to contact us if you need help with anything Node related.
 
@@ -56,4 +56,4 @@ Please bring the application up on a personal AWS account using the free tier.  
 
 Please restart.  When you're done, check your finished results into a public (or password protected) git repository and share it with us along with the URL to access the up and running square machine.  Please leave the application up and running, as we will have you show us more about your work and how you did it in your tech deep dive.  If you have time, knowledge and desire, please also implement a CI/CD system that we can use to deploy new code, which you can show us in your interview.  Tell us what else you think we need, and if you have time and desire build it for us.
 
-Please include any code you used to setup AWS in the git repository.  If you used the AWS, please provide a high-level summery of the things you did in the AWS console to get this up and running via email.
+Please include any code you used to setup AWS in the git repository.  If you used the AWS, please provide a high-level summery of the things you did in the AWS console to get this up and running in a file called AWS.md in the root of your git reposiotry..
