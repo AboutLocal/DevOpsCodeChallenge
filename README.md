@@ -45,7 +45,7 @@ The current source tree was setup by a junior developer who has just started wit
 
 If the api microservice throws an error about connecting to MySQL, just do a docker-compose down and docker-compose up in order to restart it.
 
-Once everything is up and running, you should be able to access the app by pointing your web browser at port 3050.
+Once everything is up and running, you should be able to access the app by pointing your web browser at **PORT 3050** on the docker host.
 
 ## How to get started ##
 Please fork or copy the github/AboutLocal/DevOpsCodeChallenge repository to your own git repository (github or anything else) and work from there.  Commit all changes you make to this repository.
